@@ -1,0 +1,364 @@
+<html>
+<head>
+<title>Calculator</title>    
+<body bgcolor="bcbdc4">
+<meta name="viewport"content="width=device-width, intital-scale=1.0">    
+<div id="nn1">
+</div>
+<div id="nn2">    
+<input type="text"id="tek">
+</div>    
+<br>    
+<br>    
+<style>
+body {
+height:400px;    
+}
+@viewport {
+width:extend-to-zoom;
+zoom:1.0;    
+}    
+#nn1 {
+background:grey;
+height:180px;
+width:150px;
+left:20px;
+position:fixed;    
+border-radius:10px/10px;    
+}            
+#tek {
+background:silver;  
+color:white;    
+width:120px;
+height:28px;    
+border-color:silver;
+left:33.5px;    
+font-family:verdana;
+position:fixed;    
+top:20px;    
+}    
+#a2 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;    
+}
+#a2:hover {
+color:teal;
+background:white;
+border-color:white;    
+}    
+#a3 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;    
+}      
+#a3:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a4 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;    
+}
+#a4:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a5 {
+color:white;
+background:crimson;  
+border-color:crimson;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}
+#a5:hover {
+background:white;
+color:crimson;
+border-color:white;    
+}    
+#a6 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}
+#a6:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a7 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;    
+}
+#a7:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a8 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}  
+#a8:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a9 {
+color:white;
+background:crimson;  
+border-color:crimson;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}  
+#a9:hover {
+background:white;
+color:crimson;
+border-color:white;    
+}        
+#a10 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}    
+#a10:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a11 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}
+#a11:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a12 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}  
+#a12:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a13 {
+color:white;
+background:crimson;  
+border-color:crimson;
+border-radius:10px/10px;  
+width:30px;
+height:20px;    
+}
+#a13:hover {
+background:white;
+color:crimson;
+border-color:white;    
+}        
+#a14 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}    
+#a14:hover {
+color:teal;
+background:white;
+border-color:white;    
+}        
+#a15 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;      
+}    
+#a15:hover {
+color:teal;
+background:white;
+border-color:white;    
+}      
+#a16 {
+color:white;
+background:crimson;  
+border-color:crimson;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+cursor:pointer;      
+}    
+#a16:hover {
+background:green;
+color:white;
+border-color:green;    
+}        
+#a17 {
+color:white;
+background:teal;  
+border-color:teal;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+}    
+#a17:hover {
+color:white;
+background:red;
+border-color:red;    
+}        
+#a18 {
+color:white;
+border-radius:10px/10px;  
+width:30px;
+height:20px;    
+background:crimson;
+border-color:crimson;    
+}    
+#a18:hover {
+background:white;
+color:crimson;
+border-color:white;    
+}        
+#a19 {
+color:white;
+border-radius:10px/10px;  
+width:30px;
+height:20px;      
+background:crimson;
+border-color:crimson;    
+}    
+#a19:hover {
+background:white;
+color:crimson;
+border-color:white;    
+}        
+#a20 {
+color:white;
+border-radius:10px/10px;  
+width:30px;
+height:20px;  
+background:crimson;
+border-color:crimson;    
+}  
+#a20:hover {
+background:white;
+color:crimson;
+border-color:white;    
+}        
+#hh1 {
+padding:00px;
+font-family:verdana;
+top:60px;
+position:fixed;    
+left:27px;  
+}    
+#yu2 {
+color:#bcbdc4;  
+font-family:verdana;
+position:fixed;
+left:55px;
+top:170px;    
+font-size:10px;    
+}    
+</style>    
+<div id="hh1">    
+<input type="button"id="a20"value="Pi"onclick="ss1(3.14)">
+<input type="button"id="a19"value="%"onclick="ss1(1/100)"name="bun">
+<input type="button"id="a18"value="^"onclick="ssq2()"name="bun">
+<input type="button"id="a5"value="/"onclick="ssq3()"name="bun">
+<br>
+<input type="button"id="a2"value="7"onclick="ss1(7)">
+<input type="button"id="a3"value="8"onclick="ss1(8)">
+<input type="button"id="a4"value="9"onclick="ss1(9)">
+<input type="button"id="a5"value="*"onclick="ssq4()"name="bun">
+<br>
+<input type="button"id="a6"value="4"onclick="ss1(4)">
+<input type="button"id="a7"value="5"onclick="ss1(5)">
+<input type="button"id="a8"value="6"onclick="ss1(6)">
+<input type="button"id="a9"value="-"onclick="ssq5()"name="bun">
+<br>
+<input type="button"id="a10"value="1"onclick="ss1(1)">
+<input type="button"id="a11"value="2"onclick="ss1(2)">
+<input type="button"id="a12"value="3"onclick="ss1(3)">
+<input type="button"id="a13"value="+"onclick="ssq6()"name="bun">
+<br>
+<input type="button"id="a14"value="0"onclick="ss1(0)">
+<input type="button"id="a15"value="."onclick="ssq7()"name="bun">
+<input type="button"id="a17"value="C"onclick="etq()">
+<input type="button"id="a16"value="="onclick="crq()">
+</div>    
+<script>
+function ss1(ste) {
+document.getElementById("tek").value = document.getElementById("tek").value+ste;
+}
+function ssq4() {
+document.getElementById("tek").value = document.getElementById("tek").value+"*";        
+}  
+function ssq2() {
+document.getElementById("tek").value = document.getElementById("tek").value+"^";  
+}    
+function ssq3() {
+document.getElementById("tek").value = document.getElementById("tek").value+"/"    
+}    
+function ssq5() {
+document.getElementById("tek").value = document.getElementById("tek").value+"-"    
+}    
+function ssq6() {
+document.getElementById("tek").value = document.getElementById("tek").value+"+"        
+}    
+function ssq7() {
+document.getElementById("tek").value = document.getElementById("tek").value+"."    
+}    
+function etq() {
+document.getElementById("tek").value = " ";    
+}  
+function crq() {
+document.getElementById("tek").value = eval(document.getElementById("tek").value);    
+}    
+</script>    
+<div id="yu2">
+CALL ME CALC
+</div>    
+</body>
+</head>    
+</html>
